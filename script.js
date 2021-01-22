@@ -25,7 +25,6 @@ function lineThrough(event){
 
 	if(count==0)
 	{
-
 	    a.classList.add("done");
 	}
 	else
@@ -57,8 +56,6 @@ function createListElement() {
 	ul.appendChild(li);
 	input.value="";
 }
-
-
 
 function addListAfterClick() {
 	if (inputLength() > 0) {
