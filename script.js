@@ -23,13 +23,10 @@ function getEventTarget(e){
 function lineThrough(event){
 	var a=event.target;
 
-	if(count==0)
-	{
+	if(count==0) {
 	    a.classList.add("done");
-	}
-	else
-	{
-		a.classList.toggle("done");
+	} else {
+	    a.classList.toggle("done");
 	}
 	count++;
 }
