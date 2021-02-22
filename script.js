@@ -9,7 +9,7 @@ for(var i = 0; i < deleteBtns.length; i++){
 	deleteBtns[i].addEventListener("click", removeParent, false);
 }
 
-//from StackOverflow:
+//learn from StackOverflow:
 function removeParent(evt) {
   evt.target.removeEventListener("click", removeParent, false);
   evt.target.parentNode.remove();
